@@ -5,5 +5,5 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      board: seeeduino_xiao_ble
-      shield: settings_reset
+      boards: seeeduino_xiao_ble
+      shields: settings_reset
