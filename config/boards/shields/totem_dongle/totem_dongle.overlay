@@ -17,8 +17,9 @@
     // Mock kscan - dongle has no physical keys
     kscan0: kscan {
         compatible = "zmk,kscan-mock";
-        columns = <10>;
-        rows = <4>;
+        label = "KSCAN_MOCK";
+        event-period = <0>;
+        events = <>;
         exit-after;
     };
 
